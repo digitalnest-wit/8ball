@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#ball, #ball-void {
+  width: 25rem;
+}
+
+#result {
+  color: #fff;
+  position: absolute;
+  top: 240px;
+  left: 350px;
+  rotate: -20deg;
+  width: 115px;
+}
+
+.hidden {
+  display: none;
+}
