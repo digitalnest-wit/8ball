@@ -2,6 +2,7 @@ body {
   display: flex;
   text-align: center;
   justify-content: center;
+  /* background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FWLRC3RrdWxXdzZExS63NN8.jpg"); */
 }
 
 #ball, #ball-void {
@@ -12,7 +13,7 @@ body {
   color: #fff;
   position: absolute;
   top: 240px;
-  left: 350px;
+  left: 45vw;
   rotate: -20deg;
   width: 115px;
 }
