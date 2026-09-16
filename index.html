@@ -1,20 +1,32 @@
-<main>
-  <h1>Magic 8 Ball</h1>
-  <form onsubmit="return false;">
-    <input id="question" type="text" placeholder="Ask me anything" />
-    <input id="submit-btn" type="button" value="Ask" />
-  </form>
-  <div>
-    <img
-      id="ball"
-      src="https://github.com/digitalnest-wit/8ball/blob/main/assets/8ball.png?raw=true"
-      alt="An large oversized 8-ball"
-    />
-    <img
-      id="ball-void"
-      src="https://github.com/digitalnest-wit/8ball/blob/main/assets/8ball_void.png?raw=true"
-      alt="A large 8-ball with a message"
-    />
-    <p id="result"></p>
-  </div>
-</main>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic 8 Ball</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Magic 8 Ball</h1>
+      <form onsubmit="return false;">
+        <input id="question" type="text" placeholder="Ask me anything" />
+        <input id="submit-btn" type="button" value="Ask" />
+      </form>
+      <div>
+        <img
+          id="ball"
+          src="https://github.com/digitalnest-wit/8ball/blob/main/assets/8ball.png?raw=true"
+          alt="An large oversized 8-ball"
+        />
+        <img
+          id="ball-void"
+          src="https://github.com/digitalnest-wit/8ball/blob/main/assets/8ball_void.png?raw=true"
+          alt="A large 8-ball with a message"
+        />
+        <p id="result"></p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
